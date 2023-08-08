@@ -132,7 +132,7 @@ img{
     }
 
     .main-title{       
-        font-size: 2rem;    
+        font-size: 1.8rem;    
         margin-bottom: .7rem;  
     }
 
@@ -142,7 +142,7 @@ img{
     }
 
     .main-link{        
-        padding: 1.3rem;      
+        padding: 1rem 1.5rem;      
     }
     
   }
@@ -160,11 +160,11 @@ img{
     }
 
     .main-title{       
-        font-size: 2.3rem;    
+        font-size: 2rem;    
     }
 
     .main-subtitle{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-bottom: 2.9rem;
     }
 
@@ -193,6 +193,15 @@ img{
        text-align: start;
     }
 
+    .main-link{
+        width: 50%;
+        padding: 1rem; 
+    }
+
+    .main-link:hover{        
+        transform: scale(1.05);    
+    }
+
  }
 
  @media only screen and (min-width: 1200px) {
@@ -207,9 +216,7 @@ img{
         transition: var(--animation-default);   
     }
 
-    .main-link:hover{        
-        transform: scale(1.05);    
-    }
+  
    
  }
 
