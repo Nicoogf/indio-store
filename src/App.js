@@ -1,10 +1,14 @@
 import './App.css';
+import Main from "./screens/main/main.jsx";
+
 
 function App() {
   return (
-    <main className="App">
-      <h1> Inicio de Proyecto </h1>
-    </main>
+    <div className="App">    
+
+      <Main />
+     
+    </div>
   );
 }
 

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,800&family=Mukta:wght@200;300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+:root{
+    --bg-black-primary: #131313 ;
+    --bg-black-primary-alpha: #1313138c ;
+    --bg-black-secondary: #212121 ;
+
+    --font-main-active: #ffffff ;
+    --font-main-off: #9f9f9f ;
+
+    --yellow-main-active: #fec844;
+    --yellow-main-off : #a87a0a; 
+    --yellow-secondary : #da7326 ;
+
+    --animation-default : all .2s ease-out;    
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
