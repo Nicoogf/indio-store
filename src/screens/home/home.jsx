@@ -1,11 +1,20 @@
 import React from 'react';
 import "./home.css";
-import  logoNav from "../../assets/logo-nav.png";
+
+
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import AlbumOutlinedIcon from '@mui/icons-material/AlbumOutlined';
 import SpatialAudioOutlinedIcon from '@mui/icons-material/SpatialAudioOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
+
+import logoNav from "../../assets/logo-nav.png";
+import cara_png from "../../assets/prueba_figura.png"
+
+
+import product_remera from "../../assets/producto_2.png";
+import product_album from "../../assets/producto_5.png";
+import product_libros from "../../assets/producto_13.png";
 
 function Home() {
   return (
@@ -48,37 +57,68 @@ function Home() {
         </nav>
 
 
-        <section className='app-container'>
+     <section className='app-container'>
 
-            <div className='options'>
+        <div className='opcion-container'>
 
-                <h2 className='time-bar'> 🟢 07:07 </h2>
-                
+          <div className='options'>
 
-                <a href="">Spotify</a>
+                    <h2 className='time-bar'> 🟢 07:07 </h2>
+                    
 
-                <a href="">Youtube</a>
+                    <a href="https://open.spotify.com/intl-es/artist/0nUGkxUncFeXt0Dr0hhrc4" target="_blank" >Spotify</a>
 
-                <a href="">Galeria</a>
+                    <a href="https://www.youtube.com/@indiosolarioficial" target="_blank" >Youtube</a>
 
-                <input className="input" type="text" />
+                    <a href="">Galeria</a>
 
-            </div>
+                    <input className="input" type="text" />
+
+          </div>
+        </div>
+
+        <article className='views-flyers'>
+
+          <img src={cara_png} alt=""  className='img_face'/>
+             
+
+        </article>
 
 
+        <div className='rank-products'>            
+
+                            
+              <a href="#" className='product'>
+                <article className='product_card'>
+                  <img src={product_remera}alt="" />
+                  <h5>Albumes</h5>
+                  <h6> Ver mas</h6>
+                </article>
+              </a>
+
+              <a href="#" className='product'>
+                <article className='product_card'>
+                  <img src={product_album}alt="" />
+                  <h5>Remeras</h5>
+                  <h6> Ver mas</h6>
+                </article>
+              </a>
+
+              <a href="#" className='product'>
+                <article className='product_card'>
+                  <img src={product_libros}alt="" />
+                  <h5>Libros</h5>
+                  <h6> Ver mas</h6>
+                </article>
+              </a>
+
+        </div>
 
 
+     </section>
 
-            <article className='views-flyers'>
-
-
-            </article>
-
-            <div className='rank-products'>
-              
-            </div>
-
-        </section>
+        
+        
 
       </div>
 
