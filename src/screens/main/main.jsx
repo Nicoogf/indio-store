@@ -23,7 +23,7 @@ const Main = () => {
         <h2 className='main-title'>Tienda Oficial</h2>
         <h5 className='main-subtitle'>Descubri todas las novedades y productos en nuestra tienda oficial</h5>
 
-        <a href="#" className='main-link'> 
+        <a href="#main" className='main-link'> 
           <i></i>
           <i></i>
           <span>Ingresar</span>

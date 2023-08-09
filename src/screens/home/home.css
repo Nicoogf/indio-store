@@ -153,20 +153,45 @@ transform: scale(2);
 
 /*APP CONTAINER*/
 
-.app-container{
-    width: 98%;
-    background-color: var(--font-main-off);
-    border-radius: 20px;   
-    margin: 0 auto;
-}
+    .app-container{
+        width: 98%;
+        background-color: var(--font-main-off);
+        border-radius: 20px;   
+        margin: 0 auto;
+    }
 
-.options{
-    display: none;
-}
+    .options{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: var(--bg-black-primary) ;
+        padding: .5rem;
+    }
 
-.views-flyers{
-    
-}
+    .input{
+        display: none;
+    }
+
+    .time-bar{
+        color: var(--font-main-active);
+        font-weight: 100;
+        font-size: 14px;
+        background-color: var(--bg-black-secondary);
+        padding: .2rem .5rem;
+        border-radius: 10px;
+    }
+
+    .options a{
+        background-color: var(--font-main-off);
+        padding: .5rem 0;
+        display: block;
+        width: 25%;
+        text-align: center;
+    }
+
+    .views-flyers{
+        
+    }
 
 
 @media only screen and (min-width: 360px) {

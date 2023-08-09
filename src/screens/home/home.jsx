@@ -11,7 +11,7 @@ function Home() {
   return (
     <div>
 
-      <div className='app-main'>
+      <div className='app-main' id="main">
 
 
         <nav className='app-nav'>
@@ -52,7 +52,22 @@ function Home() {
 
             <div className='options'>
 
+                <h2 className='time-bar'> 🟢 07:07 </h2>
+                
+
+                <a href="">Spotify</a>
+
+                <a href="">Youtube</a>
+
+                <a href="">Galeria</a>
+
+                <input className="input" type="text" />
+
             </div>
+
+
+
+
 
             <article className='views-flyers'>
 
