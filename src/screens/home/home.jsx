@@ -50,6 +50,19 @@ function Home() {
 
         <section className='app-container'>
 
+            <div className='options'>
+
+            </div>
+
+            <article className='views-flyers'>
+
+
+            </article>
+
+            <div className='rank-products'>
+              
+            </div>
+
         </section>
 
       </div>

@@ -46,12 +46,17 @@ hr{
 .app-main{
     background-color: var(--bg-black-primary);
     position: relative;
+    padding: 1rem;
 }
 
 .app-container{
     width: 100%;
     height: 100vh;
 }
+
+
+
+/* Nav */
 
 .app-nav{
     width: 100%;
@@ -65,11 +70,12 @@ hr{
     justify-content: center;
     gap:2rem;
     align-items: center;
+    z-index: 100;
+    display: none;
 }
 
-.nav-logo{
-    width: 35%;
-    padding: .5rem;
+.nav-logo{   
+    display: none;
 }
 
 .nav-menu{ 
@@ -84,7 +90,9 @@ hr{
     font-size: 1.5rem;
     color: var(--font-main-active);    
     background: #131313;
-    padding: 2rem 0;
+    background: rgb(254,200,68);
+    background: linear-gradient(180deg, rgba(254,200,68,1) 0%, rgba(218,115,38,1) 100%);
+    padding: 1.5rem 0;
     border-radius: 20px 20px 0 0;  
 }
 
@@ -113,12 +121,13 @@ hr{
     gap: 1rem;
     transition: .3s ease-in-out;
     cursor: pointer;
-   
+    border: medium solid rgb(27, 27, 27);
 }
+
 
 .nav-li:hover{
     background-color:var(--bg-black-primary-alpha);    
-    box-shadow: 1px -1px 95px 3px #f3c60046 inset;
+    box-shadow: 1px -1px 95px 3px #f3b200dc inset;
     border-radius:20px;
 }    
 
@@ -142,6 +151,24 @@ transform: scale(2);
 
 
 
+/*APP CONTAINER*/
+
+.app-container{
+    width: 98%;
+    background-color: var(--font-main-off);
+    border-radius: 20px;   
+    margin: 0 auto;
+}
+
+.options{
+    display: none;
+}
+
+.views-flyers{
+    
+}
+
+
 @media only screen and (min-width: 360px) {
 
     .app-nav{
@@ -149,14 +176,10 @@ transform: scale(2);
     }
   }
 
-
 @media only screen and (min-width: 480px) {
-
     .app-nav{
         width: 65%;
     }
-   
-    
   }
 
   @media only screen and (min-width: 720px) {
@@ -167,12 +190,70 @@ transform: scale(2);
     }  
     
   }
-
   
   @media only screen and (min-width: 1024px) {
 
+    .app-main{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
     .app-nav{
-        display: none;    
+        width: 40%;
+        max-width: 280px;
+        position: relative;
+        display: flex; 
+        justify-content: flex-start;   
     }  
+
+
+    .nav-title-main{    
+        text-align: center;   
+        background: rgb(254,200,68);
+        background: linear-gradient(180deg, rgba(254,200,68,1) 0%, rgba(218,115,38,1) 100%);
+        padding: 1.2rem 0; 
+        border-radius: 0;    
+    }
+
+    .nav-menu{ 
+        width: 100%;   
+        margin: 2rem 0;   
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+        border-radius: 0;         
+    }
+
+
+    .nav-li:hover{
+        background-color:var(--bg-black-primary-alpha);    
+        box-shadow: 1px -1px 95px 3px #f3c60046 inset;
+        border-radius: 0px;
+    }    
+
+    .ul-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .nav-logo{
+        display: block;
+        width: 30%; 
+        margin-top: 2rem;             
+    }
+
+    .options-nav-a{
+        color: var(--font-main-off);
+        font-size: 1.3rem;      
+        display: block;
+        padding: 1.5rem 0;     
+    }
+
+    .btn-exit{
+        display: none;
+    }
+   
+    
     
   }
+
