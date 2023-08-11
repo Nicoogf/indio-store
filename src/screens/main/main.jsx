@@ -2,6 +2,7 @@ import React from 'react' ;
 import "./main.css"; 
 import logo from "../../assets/logo-transparente.png";
 import indioTitle from "../../assets/indio.png"
+import StartButton from '../../components/btn-start/button';
 
 
 const Main = () => {
@@ -23,11 +24,14 @@ const Main = () => {
         <h2 className='main-title'>Tienda Oficial</h2>
         <h5 className='main-subtitle'>Descubri todas las novedades y productos en nuestra tienda oficial</h5>
 
-        <a href="#main" className='main-link'> 
-          <i></i>
-          <i></i>
-          <span>Ingresar</span>
-        </a>
+       
+          
+       <StartButton />
+
+
+
+       {/*   <span>Ingresar</span> */}
+       
 
       </section>
         
