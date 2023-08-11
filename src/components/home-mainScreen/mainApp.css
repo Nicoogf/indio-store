@@ -1,0 +1,33 @@
+.main-screen{    
+    width: 90%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.45);
+    border-radius: 20px;
+    background-image: url(../../assets/nueva-face.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 1rem;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.411);
+    animation: start-windows .5s;
+    transition: .3s ease-in-out;
+}
+
+
+@keyframes start-windows {
+    0%{
+        filter: blur(30px);
+        transform: translateY(-30px);
+    }
+    100%{
+        filter: blur(0);
+        transform: translateY(0);
+    }
+    
+}
+

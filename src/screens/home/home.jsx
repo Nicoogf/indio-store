@@ -1,6 +1,7 @@
 import React from 'react';
 import "./home.css";
 import Options from "../../components/home-appContainer-nav/nav";
+import MainScreen from "../../components/home-mainScreen/mainApp"
 
 
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
@@ -10,7 +11,6 @@ import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 
 import logoNav from "../../assets/logo-nav.png";
-import cara_png from "../../assets/prueba_figura.png"
 
 
 import product_remera from "../../assets/producto_2.png";
@@ -65,6 +65,7 @@ function Home() {
 
           <Options />
 
+          <MainScreen />
 
 
 
@@ -77,12 +78,6 @@ function Home() {
 
 
 
-            <article className='views-flyers'>
-
-              <img src={cara_png} alt=""  className='img_face'/>
-                
-
-            </article>
 
 
             <div className='rank-products'>            
