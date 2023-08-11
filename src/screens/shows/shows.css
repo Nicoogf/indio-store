@@ -1,0 +1,82 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.shows{
+    width: 100%;    
+    background-color: black;
+}
+
+.show_container{
+    background-color: grey;
+    width: 90%;   
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    padding-bottom: 1rem;
+}
+
+.img_recitales{
+    width: 80%;
+    max-width:250px
+}
+
+
+.list_shows{
+    border: thick solid black;
+    width: 80%;
+    height: 500px;
+    max-width: 300px;
+}
+
+.list_shows{
+    background-image: url("../../assets/olavarria.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fecha_show{
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
+    background: rgb(254,200,68);
+    background: linear-gradient(180deg, rgba(254,200,68,1) 0%, rgba(218,115,38,1) 100%);
+}
+
+
+.lista-shows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .show_container{
+        background-color: grey;
+        width: 90%;        
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding-bottom: 1rem;
+    }
+
+    .lista-shows{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+
+ }

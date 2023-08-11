@@ -17,6 +17,7 @@ function Store() {
 
 
   return (
+    
     <div className='store-container'>
 
         <section className='product-container'>
