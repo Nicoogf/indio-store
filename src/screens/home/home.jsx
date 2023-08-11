@@ -1,5 +1,6 @@
 import React from 'react';
 import "./home.css";
+import Options from "../../components/home-appContainer-nav/nav";
 
 
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
@@ -57,65 +58,64 @@ function Home() {
         </nav>
 
 
-     <section className='app-container'>
-
-        <div className='opcion-container'>
-
-          <div className='options'>
-
-                    <h2 className='time-bar'> 🟢 07:07 </h2>
-                    
-
-                    <a href="https://open.spotify.com/intl-es/artist/0nUGkxUncFeXt0Dr0hhrc4" target="_blank" >Spotify</a>
-
-                    <a href="https://www.youtube.com/@indiosolarioficial" target="_blank" >Youtube</a>
-
-                    <a href="">Galeria</a>
-
-                    <input className="input" type="text" />
-
-          </div>
-        </div>
-
-        <article className='views-flyers'>
-
-          <img src={cara_png} alt=""  className='img_face'/>
-             
-
-        </article>
+        <section className='app-container'>
 
 
-        <div className='rank-products'>            
-
-                            
-              <a href="#" className='product'>
-                <article className='product_card'>
-                  <img src={product_remera}alt="" />
-                  <h5>Albumes</h5>
-                  <h6> Ver mas</h6>
-                </article>
-              </a>
-
-              <a href="#" className='product'>
-                <article className='product_card'>
-                  <img src={product_album}alt="" />
-                  <h5>Remeras</h5>
-                  <h6> Ver mas</h6>
-                </article>
-              </a>
-
-              <a href="#" className='product'>
-                <article className='product_card'>
-                  <img src={product_libros}alt="" />
-                  <h5>Libros</h5>
-                  <h6> Ver mas</h6>
-                </article>
-              </a>
-
-        </div>
 
 
-     </section>
+          <Options />
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <article className='views-flyers'>
+
+              <img src={cara_png} alt=""  className='img_face'/>
+                
+
+            </article>
+
+
+            <div className='rank-products'>            
+
+                                
+                  <a href="#" className='product'>
+                    <article className='product_card'>
+                      <img src={product_remera}alt="" />
+                      <h5>Albumes</h5>
+                      <h6> Ver mas</h6>
+                    </article>
+                  </a>
+
+                  <a href="#" className='product'>
+                    <article className='product_card'>
+                      <img src={product_album}alt="" />
+                      <h5>Remeras</h5>
+                      <h6> Ver mas</h6>
+                    </article>
+                  </a>
+
+                  <a href="#" className='product'>
+                    <article className='product_card'>
+                      <img src={product_libros}alt="" />
+                      <h5>Libros</h5>
+                      <h6> Ver mas</h6>
+                    </article>
+                  </a>
+
+            </div>
+
+
+        </section>
 
         
         

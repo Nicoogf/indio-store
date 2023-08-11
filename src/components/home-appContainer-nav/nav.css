@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,800&family=Mukta:wght@200;300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+:root{
+    --bg-black-primary: #131313 ;
+    --bg-black-primary-alpha: #1313138c ;
+    --bg-black-secondary: #212121 ;
+
+    --font-main-active: #ffffff ;
+    --font-main-off: #9f9f9f ;
+
+    --yellow-main-active: #fec844;
+    --yellow-main-off : #a87a0a; 
+    --yellow-secondary : #da7326 ;
+
+    --animation-default : all .2s ease-out;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;    
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+.nav-main{
+    width: 100%;
+    background-color: var(--bg-black-secondary);
+    padding: 1.2rem;
+}
+
+.nav-container{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icono-menu{
+    transform: scale(2);
+    padding: .3rem;
+    cursor: pointer;
+    border-radius: 10px;   
+}
+
+
+
+.music-options-container{
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.music-options-container a{
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    width: 20vw;
+    padding: .6rem 0;
+    color: var(--font-main-off);
+    transition: .2s ease-in-out;
+}
+
+.btn-open-menu{   
+    padding: .4rem;
+    background-color: var(--bg-black-secondary);
+    color: var(--font-main-off);
+    border: none;
+}
+
+.icono-menu:hover{
+    background-color: var(--yellow-main-active);
+}
+
+.music-options-container a:hover{
+    background-color: var(--yellow-main-active);
+    color:var(--yellow-main-off);
+}
+
+.icon-menu{
+    display: block;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .icon-menu{
+        display: none;
+    }
+
+    .nav-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;       
+    }
+
+    .music-options-container a{
+        max-width: 200px ;
+    }
+
+    .music-options-container{
+        margin-left: 2rem;
+    }
+
+    .nav-main{
+        width: 100%;
+        background-color: var(--bg-black-secondary);
+        padding: 1rem;
+    }
+    
+ }
