@@ -8,7 +8,7 @@ function StartButton() {
 
 
     <div>
-        <a href="#" className='btn-start'><span className='span-btn'>Ingresar</span></a>
+        <a href="#main" className='btn-start'><span className='span-btn'>Ingresar</span></a>
     </div>
 
   )

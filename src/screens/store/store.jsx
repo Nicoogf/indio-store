@@ -18,7 +18,7 @@ function Store() {
 
   return (
     
-    <div className='store-container'>
+    <div className='store-container' id="store">
 
         <section className='product-container'>
 

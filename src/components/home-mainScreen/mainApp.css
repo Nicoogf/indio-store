@@ -16,7 +16,83 @@
     background-color: rgba(0, 0, 0, 0.411);
     animation: start-windows .5s;
     transition: .3s ease-in-out;
+    
+
+    display: flex;   
+    align-items: center;
 }
+
+
+.flyer-1{
+    width: 60%; 
+    margin: 3vh;
+    max-width: 500px;
+    display: none;
+}
+
+
+.flyer-1 h2{
+    font-size: 7vh;
+    color: rgb(255, 136, 0);
+}
+
+.flyer-1 h3{
+    font-size: 4vh;
+    color: rgb(252, 185, 2);
+}
+
+.flyer-1 h4{
+    font-weight: 200;
+}
+
+.flyer-1 h4 span{   
+    color: rgb(170, 170, 170);
+}
+
+.flyer-1 a{
+    display: block;
+    background: rgb(176,78,25);
+    background: linear-gradient(0deg, rgba(176,78,25,1) 0%, rgba(255,192,0,1) 100%);
+    margin-top: 3vh;
+    width: 30%;
+    padding: 1.2vh;
+    color: white;
+    font-weight: 200;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+
+@media only screen and (min-width: 720px) {
+
+    .main-screen{   
+        display: flex;  
+        justify-content: center; 
+        align-items: center;      
+    }
+
+    .flyer-1{        
+        display: block;
+    }
+
+  }
+
+
+@media only screen and (min-width: 1200px) {
+
+    .main-screen{    
+        
+        display: flex;  
+        justify-content: center; 
+        align-items: center;      
+    }
+
+    .flyer-1{
+       margin-right: 30vh;
+    }
+
+  }
+
 
 
 @keyframes start-windows {

@@ -39,7 +39,7 @@ function Home() {
 
             <ul className='ul-nav'>
 
-              <li className='nav-li'>  <ShoppingBagOutlinedIcon className='icon'/> <a href="#" className='options-nav-a'> Productos</a> </li>
+              <li className='nav-li'>  <ShoppingBagOutlinedIcon className='icon'/> <a href="#store" className='options-nav-a'> Productos</a> </li>
 
               <li className='nav-li'>  <AlbumOutlinedIcon className='icon'/> <a href="#" className='options-nav-a'>Discografia</a> </li>
 
