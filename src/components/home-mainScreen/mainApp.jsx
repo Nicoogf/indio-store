@@ -6,6 +6,11 @@ function MainScreenApp() {
   return (
 
     <section className='main-screen'> 
+
+        <div className="flyer">
+
+          <h2></h2>
+        </div>
         
     </section>
 

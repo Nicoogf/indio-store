@@ -1,7 +1,8 @@
 import React from 'react';
 import "./home.css";
 import Options from "../../components/home-appContainer-nav/nav";
-import MainScreen from "../../components/home-mainScreen/mainApp"
+import MainScreen from "../../components/home-mainScreen/mainApp";
+import RankProduct from '../../components/rankProduct/rankProduct';
 
 
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
@@ -67,6 +68,7 @@ function Home() {
 
           <MainScreen />
 
+          <RankProduct />
 
 
 
@@ -80,35 +82,8 @@ function Home() {
 
 
 
-            <div className='rank-products'>            
 
-                                
-                  <a href="#" className='product'>
-                    <article className='product_card'>
-                      <img src={product_remera}alt="" />
-                      <h5>Albumes</h5>
-                      <h6> Ver mas</h6>
-                    </article>
-                  </a>
-
-                  <a href="#" className='product'>
-                    <article className='product_card'>
-                      <img src={product_album}alt="" />
-                      <h5>Remeras</h5>
-                      <h6> Ver mas</h6>
-                    </article>
-                  </a>
-
-                  <a href="#" className='product'>
-                    <article className='product_card'>
-                      <img src={product_libros}alt="" />
-                      <h5>Libros</h5>
-                      <h6> Ver mas</h6>
-                    </article>
-                  </a>
-
-            </div>
-
+          
 
         </section>
 
