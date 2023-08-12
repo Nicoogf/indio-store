@@ -1,51 +1,55 @@
 import React from 'react';
 import "./shows.css" ;
 import recitales from "../../assets/recitales.png" ;
-import olavarria_flyer from "../../assets/olavarria-flyer.png"
+import tandil from "../../assets/tandil.jpg"
+
 
 
 function Shows() {
   return (
     <div className='shows'> 
 
-        <div className='show_container'>
+    <div className='show-container'>
 
-            <img src={recitales} alt="" className='img_recitales' />
+      <div className='show-container-elements'>
 
-            <div className='lista-shows'>
+        <img src={recitales} alt="" className='show-img'/>
 
-                        <div className='list_shows'>
+        <div className='list-show'>
 
-                            <img src={olavarria_flyer} alt=""/>
+            <div className='show-info'>
+    
+              <img src={tandil} alt="" className='img-show' />
+          
 
-                            <h3 className='fecha_show'> 11 / 03 / 2017 </h3>
+              <div className='info-show'>      
+
+              <h3 className='info-title'>Tandil</h3>
+
+              <p className='texto-show'>El cantante comenzó a hacer vibrar a Olavarría con "Barba azul vs el amor letal". Luego continuó con "Porco Rex", "Arca Monster" y "Chau Mohicano", .El show debió ser pausado por la continuidad de incidentes.</p>
+
+              </div>
+
+              <div className='add-info-show'>
+
+                <h5>11/03/2017</h5>
+                <h5>24 Canciones</h5>
+                <h5> 330.000 Espectadores</h5>
+
+              </div>
+
+            </div>
 
 
-                         </div>
-
-
-                            <div className='list_shows'>
-
-                            <img src={olavarria_flyer} alt=""/>
-
-                            <h3 className='fecha_show'> 11 / 03 / 2017 </h3>
-
-
-                            </div>
-
-
-                            <div className='list_shows'>
-
-                            <img src={olavarria_flyer} alt=""/>
-
-                            <h3 className='fecha_show'> 11 / 03 / 2017 </h3>
-
-
-                            </div>
-           </div>
-
-           
         </div>
+
+      
+
+      </div>
+
+
+
+    </div>
 
     </div>
   )

@@ -50,28 +50,27 @@ html{
 }
 
 .store-container{    
-    width: 95%;
+    width: 98%;
   
-    background-color: var(--bg-black-secondary);
+    background-color: rgb(7, 7, 7);
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    
+    margin-bottom: 4vh;
 
 }
 
 .img-recitales{
     width: 50%;
     height: auto;
-    max-width: 350px;
+    max-width: 200px;
     padding: 1rem;
 }
 
 .products{
-    width: 95%;
+    width: 89%;
     padding: 2rem;
    
     background-image: url("../../assets/fondo-store.jpg");
@@ -79,30 +78,35 @@ html{
 
     display: grid;
     
-  
-  
     gap: 2rem;
     grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-   
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));   
 }
 
 .product{
-    width: 95%;
-    max-width: 350px;
+    width: 80%;
+    max-width: 300px;
     height: 350px;  
     margin: 0 auto;  
     grid-column: span 2;
     position: relative;
+    filter: grayscale(1);
 }
 
 .product img{
     width: 50%;
+    max-width: 150px;
+    max-height: 184px;
     position: relative;
     top: 3rem;
 }
 
+.img-show{
+    border-radius: 20px 20px 0 0;
+}
+
 .article-text{
+    width: 90%;
     background-color: #68686870;
     padding: 1rem;
     border-radius: 1.5rem;
@@ -120,11 +124,11 @@ html{
 
 .name-product{
     color: white;
-    font-size: 2.1vh;
+    font-size: 1.8vh;
 }
 
 .desc-product{
-    width: 95%;
+    width: 100%;
     font-size: 1vh;    
     text-align: center; 
     color: var(--font-main-active); 
@@ -139,15 +143,33 @@ html{
 
 .buy-options h6{
     color: #fec844;
-    font-size: 2.5vh;
+    font-size: 2vh;
     font-weight: 400;
     padding: .3rem .7rem;
 }
 
 .buy-options a{
-    background-color: rgba(20, 20, 20, 0.658);
+    font-size: 2vh;
+    background-color: transparent;
     display: block; 
     padding: .3rem .7rem;
     color: white;
     border-radius: 10px;
+}
+
+.buy-options a:hover{
+    font-size: 2vh;
+    background-color: goldenrod;
+    display: block; 
+    padding: .3rem .7rem;
+    color: rgba(85, 65, 0, 0.973);;
+    border-radius: 10px;
+}
+
+.product:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.product:hover .desc-product{
+    color: var(--bg-black-secondary);
 }

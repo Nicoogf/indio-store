@@ -1,10 +1,12 @@
 import React from 'react';
 import "./store.css";
 import remeraPorco from "../../assets/producto_5.png";
-import recitales_title from "../../assets/recitales.png";
-import discoTesoro from "../../assets/producto_1.png";
-import libroSecretos from "../../assets/producto_11.jpg" ;
-import libroSuenio from "../../assets/producto_12.jpg" ;
+import shop_title from "../../assets/shop.png";
+import discoTesoro from "../../assets/producto_1fix.png";
+import libroSecretos from "../../assets/producto_11fix.png" ;
+import libroSuenio from "../../assets/producto_12fix.png" ;
+import discoPerfume from "../../assets/producto_2fix.png" ;
+import remeraIndio from "../../assets/producto_6.png" ;
 
 
 function Store() {
@@ -18,7 +20,7 @@ function Store() {
 
         <div className='store-container'>
 
-        <img src={recitales_title} alt="" className='img-recitales'/>
+        <img src={shop_title} alt="" className='img-recitales'/>
 
         <div className='products'>
 
@@ -110,15 +112,15 @@ function Store() {
 
             <div className='article-text'>
 
-            <h3>Remera</h3>
+            <h3>Libro</h3>
 
             <div className='article-text-info'>
-                <p className='name-product'>PORCO REX - UNISEX (DTG)</p>
+                <p className='name-product'>LA VIDA ES UNA MISIÓN SECRETA</p>
                 <p className='desc-product'>LOS TIEMPOS DE ENTREGA SON ESTIMADOS. PARA OBTENER MAS INFORMACION SOBRE EL ESTADO DE TU COMPRA, TE RECOMENDAMOS REVISAR EL SEGUIMIENTO DE ENVIO, UNA VEZ ACREDITADO EL PAGO.</p>
             </div>
 
             <div className='buy-options'>
-                <h6>$7500</h6>
+                <h6>$6900</h6>
                 <a href="">Agregar al carrito</a>
             </div>
 
@@ -132,20 +134,20 @@ function Store() {
 
             <div className='product'>
 
-            <img src={remeraPorco} alt="" />
+            <img src={discoPerfume} alt="" />
 
 
             <div className='article-text'>
 
-            <h3>Remera</h3>
+            <h3>Album</h3>
 
             <div className='article-text-info'>
-                <p className='name-product'>PORCO REX - UNISEX (DTG)</p>
+                <p className='name-product'>EL PERFUME DE LA TEMPESTAD</p>
                 <p className='desc-product'>LOS TIEMPOS DE ENTREGA SON ESTIMADOS. PARA OBTENER MAS INFORMACION SOBRE EL ESTADO DE TU COMPRA, TE RECOMENDAMOS REVISAR EL SEGUIMIENTO DE ENVIO, UNA VEZ ACREDITADO EL PAGO.</p>
             </div>
 
             <div className='buy-options'>
-                <h6>$7500</h6>
+                <h6>$5000</h6>
                 <a href="">Agregar al carrito</a>
             </div>
 
@@ -159,7 +161,7 @@ function Store() {
 
             <div className='product'>
 
-            <img src={remeraPorco} alt="" />
+            <img src={remeraIndio} alt="" />
 
 
             <div className='article-text'>
@@ -167,7 +169,7 @@ function Store() {
             <h3>Remera</h3>
 
             <div className='article-text-info'>
-                <p className='name-product'>PORCO REX - UNISEX (DTG)</p>
+                <p className='name-product'>REMERA INDIO - UNISEX (DTG)</p>
                 <p className='desc-product'>LOS TIEMPOS DE ENTREGA SON ESTIMADOS. PARA OBTENER MAS INFORMACION SOBRE EL ESTADO DE TU COMPRA, TE RECOMENDAMOS REVISAR EL SEGUIMIENTO DE ENVIO, UNA VEZ ACREDITADO EL PAGO.</p>
             </div>
 
