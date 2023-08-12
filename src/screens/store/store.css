@@ -38,100 +38,59 @@ html{
     box-sizing: inherit;
 }
 
-html{
-    height: 100vh;
-    background-image: url("../../assets/fondo_app.jpg");
-}
 
-h4{
-    color: white;
-}
+ 
 
-.store-container{
-    width: 100%;   
-    background-image: url("../../assets/fondo_app.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.store-main{
+    width: 100%;
+    background-color: rgb(7, 7, 7);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.product-container{
-    width: 95%;    
+.store-container{    
+    width: 95%;
+  
+    background-color: var(--bg-black-secondary);
+    border-radius: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-black-primary-alpha);
-}
-    .img-store{
-        width: 60%;
-        padding: 2rem;
-        max-width: 300px;
-    }
 
-.product-container h2{
-    text-align: center;
-    font-size: 5rem;
+    
+
 }
 
-.product-countent{
-    width: 80%;    
-    background-color: var(--bg-black-primary);
+.img-recitales{
+    width: 50%;
+    height: auto;
+    max-width: 350px;
+    padding: 1rem;
+}
+
+.products{
+    width: 95%;
+    padding: 2rem;
+   
+    background-color: aqua;
+    border-radius: 14px;
+
     display: grid;
-    padding-top: .7rem ;
-    gap: 1.5rem;
+    
+  
+  
+    gap: 2rem;
     grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fit,minmax(13rem,1fr));
-    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+   
 }
 
 .product{
-    position: relative;
-    max-width: 230px;
-    height: 33vh;    
-    grid-column: span 2;
+    width: 95%;
+    max-width: 350px;
     margin: 0 auto;
-    border-radius: 20px;
-    background-color: rgba(#c4c4c4b9);    
-}
-
-.info-producto{
-    width: 100%;
-    text-align: center;
-    background: rgb(91,91,91);
-    background: linear-gradient(180deg, rgba(91,91,91,0) 0%, rgba(189,123,0,1) 55%);
-    padding-top: .8rem;
-    opacity: 0;
-    border-radius: 0 0 20px 20px;
-    position: absolute;
-    bottom: 0;  
-}
-
-.img-producto{
-    position: relative;    
-    width: 60%;
-    z-index: 100;
-    transform: translateY(-40px);    
-}
-
-
-.info-producto h6{
-    font-size: 1.8vh;
-    color: white;
-}
-
-.info-producto p{
-    padding-bottom: .8rem;
-    color: white;
-}
-
-
-.product:hover .info-producto{
-    opacity: 1;
-}
-
-.product:hover .img-producto{
-    transform: translateY(-35px) scale(1.05);
+    border: thick #131313 solid;
+    grid-column: span 2;
 }

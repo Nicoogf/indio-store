@@ -359,7 +359,7 @@ transform: scale(2);
 
     .app-nav{
         width: 40%;
-        max-width: 280px;
+        max-width: 230px;
         position: relative;
         display: flex; 
         justify-content: flex-start;   
