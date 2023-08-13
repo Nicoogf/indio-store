@@ -50,8 +50,7 @@ html{
 }
 
 .store-container{    
-    width: 98%;
-  
+    width: 98%;  
     background-color: rgb(7, 7, 7);
     border-radius: 20px;
     display: flex;
@@ -124,12 +123,12 @@ html{
 
 .name-product{
     color: white;
-    font-size: 1.8vh;
+    font-size: 1.5vh;
 }
 
 .desc-product{
     width: 100%;
-    font-size: 1vh;    
+    font-size: .6vh;    
     text-align: center; 
     color: var(--font-main-active); 
 }
@@ -143,13 +142,13 @@ html{
 
 .buy-options h6{
     color: #fec844;
-    font-size: 2vh;
+    font-size: 1.6vh;
     font-weight: 400;
     padding: .3rem .7rem;
 }
 
 .buy-options a{
-    font-size: 2vh;
+    font-size: 1.7vh;
     background-color: transparent;
     display: block; 
     padding: .3rem .7rem;
@@ -158,7 +157,7 @@ html{
 }
 
 .buy-options a:hover{
-    font-size: 2vh;
+    font-size: 1.7vh;
     background-color: goldenrod;
     display: block; 
     padding: .3rem .7rem;

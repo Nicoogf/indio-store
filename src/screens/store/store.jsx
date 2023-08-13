@@ -34,7 +34,7 @@ function Store() {
                 <h3>Remera</h3>
 
                 <div className='article-text-info'>
-                    <p className='name-product'>PORCO REX - UNISEX (DTG)</p>
+                    <p className='name-product'>PORCO REX - UNISEX</p>
                     <p className='desc-product'>LOS TIEMPOS DE ENTREGA SON ESTIMADOS. PARA OBTENER MAS INFORMACION SOBRE EL ESTADO DE TU COMPRA, TE RECOMENDAMOS REVISAR EL SEGUIMIENTO DE ENVIO, UNA VEZ ACREDITADO EL PAGO.</p>
                 </div>
 
@@ -169,7 +169,7 @@ function Store() {
             <h3>Remera</h3>
 
             <div className='article-text-info'>
-                <p className='name-product'>REMERA INDIO - UNISEX (DTG)</p>
+                <p className='name-product'>REMERA INDIO - UNISEX </p>
                 <p className='desc-product'>LOS TIEMPOS DE ENTREGA SON ESTIMADOS. PARA OBTENER MAS INFORMACION SOBRE EL ESTADO DE TU COMPRA, TE RECOMENDAMOS REVISAR EL SEGUIMIENTO DE ENVIO, UNA VEZ ACREDITADO EL PAGO.</p>
             </div>
 

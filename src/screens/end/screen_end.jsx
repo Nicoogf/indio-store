@@ -3,7 +3,7 @@ import "./end.css" ;
 import EndButton from '../../components/btn-end/buttonEnd';
 import trabajo from "../../assets/trabajo.png";
 import reactImg from "../../assets/react.png";
-import bingo from "../../assets/bingo.png";
+import porco from "../../assets/porco.png"
 
 
 const EndView = () => {
@@ -25,6 +25,10 @@ const EndView = () => {
       
 
     
+          </div>
+
+          <div className='flyer-porco'>
+            <img src={porco} alt="" className='img-flyer'/>
           </div>
 
          

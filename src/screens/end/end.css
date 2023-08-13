@@ -8,16 +8,18 @@
     display: flex;
     justify-content: center;
     align-items: center;  
+    
 }
 
 .end_container{
     width: 100%;
     height: 65vh;
-    max-width: 650px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
+    padding: 2rem;
     
 }
 
@@ -29,7 +31,7 @@ img{
 .img-trabajo{
     width: 50%;
     max-width: 400px;
-    background-color: rgba(0, 0, 0, 0.651);
+    
    
 }
 
@@ -38,22 +40,63 @@ img{
     width: 70%;
     max-width: 300px;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.795);
+   
     text-align: center;   
     padding: .5rem;
     border-radius: 20px;
 }
 
-.end-countent{
-    background-image: url("../../assets/bingo.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
+.end-countent{  
     width: 90%;
-    max-width: 800px;
-    background-color: rgba(0, 0, 0, 0.911);
-    -webkit-box-shadow: 1px 1px 29px 3px rgba(255,183,0,1);
-    -moz-box-shadow: 1px 1px 29px 3px rgba(255,183,0,1);
-    box-shadow: 1px 1px 29px 3px rgba(255,183,0,1);
-    border-radius: 20px;
+    max-width: 800px;  
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
+
+.flyer-porco{
+    display:flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.img-flyer{
+    width: 65%;
+    max-width: 400px;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .end_container{
+        width: 100%;
+        height: 65vh;
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;   
+        padding: 2rem;
+        
+    }
+
+    .end-countent{  
+        width: 90%;
+        max-width: 800px;  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end_container p{       
+        text-align: start; 
+        font-size: 2vh;  
+      }
+
+      .img-flyer{
+        width: 80%;
+        max-width: 600px;
+    }
+    
+  }

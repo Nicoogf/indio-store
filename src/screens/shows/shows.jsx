@@ -1,13 +1,15 @@
 import React from 'react';
 import "./shows.css" ;
 import recitales from "../../assets/recitales.png" ;
-import tandil from "../../assets/tandil.jpg"
+import tandil from "../../assets/tandil.jpg";
+import olavarria from "../../assets/olavarria.jpg";
+import mendoza from "../../assets/mendoza.jpg" ;
 
 
 
 function Shows() {
   return (
-    <div className='shows'> 
+    <div className='shows' id="shows"> 
 
     <div className='show-container'>
 
@@ -21,7 +23,7 @@ function Shows() {
 
             <div className='show-info'>
     
-              <img src={tandil} alt="" className='img-show' />
+              <img src={mendoza} alt="" className='img-show' />
           
 
               <div className='info-show'>      
@@ -76,7 +78,7 @@ function Shows() {
 
             <div className='show-info'>
     
-              <img src={tandil} alt="" className='img-show' />
+              <img src={olavarria} alt="" className='img-show' />
           
 
               <div className='info-show'>      

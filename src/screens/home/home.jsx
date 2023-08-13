@@ -43,7 +43,7 @@ function Home() {
 
               <li className='nav-li'>  <AlbumOutlinedIcon className='icon'/> <a href="#" className='options-nav-a'>Discografia</a> </li>
 
-              <li className='nav-li'>  <SpatialAudioOutlinedIcon className='icon'/> <a href="#" className='options-nav-a'>Recitales</a> </li>
+              <li className='nav-li'>  <SpatialAudioOutlinedIcon className='icon'/> <a href="#shows" className='options-nav-a'>Recitales</a> </li>
 
               <li className='nav-li'>  <LanguageOutlinedIcon className='icon'/><a href="#" className='options-nav-a'>Redes</a> </li>
 
