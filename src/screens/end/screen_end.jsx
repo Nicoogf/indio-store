@@ -1,18 +1,33 @@
 import React from 'react' ;
 import "./end.css" ;
-import proyecto from "../../assets/end.png"
+import EndButton from '../../components/btn-end/buttonEnd';
+import trabajo from "../../assets/trabajo.png";
+import reactImg from "../../assets/react.png";
+import bingo from "../../assets/bingo.png";
+
 
 const EndView = () => {
   return (
     <div className='end_page'>
 
-        <div className='end_container'>
+       
 
-            <img src={proyecto} alt="" />
+        <div className='end-countent'>
 
-            <h6>Landing-page realizada para el proyecto final del curso full-stack.Abajo el link del repositorio en GitHub</h6>
+          <div className='end_container'>
 
-            <a href="https://github.com/Nicoogf/indio-store" target="_blank" className='end_subtitle'>Ir a Git</a>
+          <img src={trabajo} alt="" className='img-trabajo'/>  
+          <img src={reactImg} alt="" className='img-trabajo'/>
+          <p>Trabajo final realizado en ReactJS para el curso de FullStack UTN</p>
+            <p>Alumno Nicolas Falabella</p> 
+            <p>Fecha de presentacion 4/09/2023</p> 
+          <EndButton />
+      
+
+    
+          </div>
+
+         
         </div>
         
     </div>

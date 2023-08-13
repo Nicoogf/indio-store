@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-start{
+    position: relative;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    text-decoration: none;
+    margin: 80px 40px;
+    transition: 1s;
+    -webkit-box-reflect: below 1px
+    linear-gradient(transparent,transparent,#0004);
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-start:hover{
+    background: #da7326;
+    box-shadow: 0 0 10px #da7326,
+    0 0 30px #da7326,
+    0 0 60px #da7326,
+    0 0 100px #da7326;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-start::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 400%;
+    background: #da7326;
+    transition: 1s;
+    animation: animate 2s linear infinite;
+    animation-delay: calc(-0.33s * 0);
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-start:hover::before{
+    width: 120%;
+    border-radius: 15px;
+}
+
+.btn-start::after{
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background-color: #131313;
+    transition: 0.5s;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-start:hover::after{
+    background-color: #da7326;
+    color: white;
+    border-radius: 15px;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.span-btn{
+    position: relative;
+    z-index: 1;
+    font-size: 2vh;
+    color:white;
+    opacity:0.5;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn-start:hover span{
+    opacity: 1;
+    border-radius: 15px;
+}

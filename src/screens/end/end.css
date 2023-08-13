@@ -4,35 +4,56 @@
     background-image: url("../../assets/view_end.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 .end_container{
     width: 100%;
     height: 65vh;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;   
     
 }
 
-.end_container h6{
-    padding: 2rem;
-    color:white;
-    font-weight: 100;    
-    font-size: 3vh;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.781);
+img{
+    width: 100%;
+    height: auto;
 }
 
-.end_subtitle{
-    text-align: center;
-    width: 50%;    
-    font-size: 3vh;
-    color: white;
-    background: rgb(254,200,68);
-    background: linear-gradient(180deg, rgba(254,200,68,1) 0%, rgba(218,115,38,1) 100%);
-    padding: .5rem 1.5rem;
+.img-trabajo{
+    width: 50%;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.651);
+   
+}
+
+.end_container p{
+    display: block;
+    width: 70%;
+    max-width: 300px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.795);
+    text-align: center;   
+    padding: .5rem;
+    border-radius: 20px;
+}
+
+.end-countent{
+    background-image: url("../../assets/bingo.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.911);
+    -webkit-box-shadow: 1px 1px 29px 3px rgba(255,183,0,1);
+    -moz-box-shadow: 1px 1px 29px 3px rgba(255,183,0,1);
+    box-shadow: 1px 1px 29px 3px rgba(255,183,0,1);
     border-radius: 20px;
 }
