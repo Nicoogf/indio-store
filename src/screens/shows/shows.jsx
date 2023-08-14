@@ -35,9 +35,9 @@ function Shows() {
 
               <div className='add-info-show'>
 
-                <h5>21/09/2014</h5>
-                <h5>22 Canciones</h5>
-                <h5> 175.000 Espectadores</h5>
+                <h5>13/12/2014</h5>
+                <h5>27 Canciones</h5>
+                <h5>175.000 Espectadores</h5>
 
               </div>
 
@@ -64,8 +64,8 @@ function Shows() {
               <div className='add-info-show'>
 
                 <h5>12/03/2016</h5>
-                <h5>29 Canciones</h5>
-                <h5> 150.000 Espectadores</h5>
+                <h5>28 Canciones</h5>
+                <h5>150.000 Espectadores</h5>
 
               </div>
 

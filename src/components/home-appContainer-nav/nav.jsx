@@ -5,6 +5,14 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Options = () => {
 
+    const abrirMenu =() =>{
+        const menuLateral = document.getElementById("menu")
+        menuLateral.classList.toggle("visible")
+    }
+
+   
+     
+
   return (
 
 
@@ -22,7 +30,8 @@ const Options = () => {
             </section>
 
             <section className='icon-menu'>
-                <button className='btn-open-menu'> <MenuIcon className='icono-menu'/> </button>
+
+                <button onClick={abrirMenu} className='btn-open-menu'> <MenuIcon className='icono-menu'/> </button>
              
             </section>
 

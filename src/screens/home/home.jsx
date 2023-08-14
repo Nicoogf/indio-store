@@ -14,18 +14,22 @@ import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import logoNav from "../../assets/logo-nav.png";
 
 
-import product_remera from "../../assets/producto_2.png";
-import product_album from "../../assets/producto_5.png";
-import product_libros from "../../assets/producto_13.png";
 
 function Home() {
+
+  const cerrarMenu = () =>{    
+    const menuLateral = document.getElementById("menu")
+    menuLateral.classList.toggle("visible")
+  }
+
+
   return (
     <div>
 
       <div className='app-main' id="main">
 
 
-        <nav className='app-nav'>
+        <nav className='app-nav' id="menu">
 
           <div className='nav-logo'>
             <img src={logoNav} alt="" />
@@ -45,13 +49,13 @@ function Home() {
 
               <li className='nav-li'>  <SpatialAudioOutlinedIcon className='icon'/> <a href="#shows" className='options-nav-a'>Recitales</a> </li>
 
-              <li className='nav-li'>  <LanguageOutlinedIcon className='icon'/><a href="#" className='options-nav-a'>Redes</a> </li>
+              <li className='nav-li'>  <LanguageOutlinedIcon className='icon'/><a href="#redes" className='options-nav-a'>Redes</a> </li>
 
             </ul>
           </div>
 
           <div className='btn-exit'>
-              <CloseOutlinedIcon className='icon icon-exit'/>
+             <button onClick={cerrarMenu} className='btn-salir'>  <CloseOutlinedIcon className='icon icon-exit'/> </button>
           </div>
 
          

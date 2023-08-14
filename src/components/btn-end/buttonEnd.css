@@ -78,8 +78,7 @@
 
 .span-btn{
     position: relative;
-    z-index: 1;
-    font-size: 2vh;
+    z-index: 1;    
     color:white;
     opacity:0.5;
     letter-spacing: 1px;
