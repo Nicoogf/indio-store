@@ -97,7 +97,7 @@ hr{
 }
 
 .nav-menu{ 
-    width: 80%;   
+    width: 100%;   
     margin: 2rem 0;   
     margin: 0 auto;
     padding-top: 4rem;
@@ -113,7 +113,8 @@ hr{
     background: rgb(254,200,68);
     background: linear-gradient(180deg, rgba(254,200,68,1) 0%, rgba(218,115,38,1) 100%);
     padding: 1.5rem 0;
-    border-radius: 20px 20px 0 0;  
+    margin-bottom: 1rem;
+    
 }
 
 
@@ -148,7 +149,7 @@ hr{
 .nav-li:hover{
     background-color:var(--bg-black-primary-alpha);    
     box-shadow: 1px -1px 95px 3px #f3b200dc inset;
-    border-radius:20px;
+  
 }    
 
 .nav-li:hover a{  
@@ -173,7 +174,7 @@ hr{
 .btn-salir{
     background-color: rgb(255, 166, 0);
     color: #131313;
-    padding: 1.5rem;
+    padding: 1.1rem;
     border:none;
     border-radius: 10px;
 }
