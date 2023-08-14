@@ -148,10 +148,11 @@ html{
 }
 
 .buy-options a{
-    font-size: 1.7vh;
+    width: 100%;
+    font-size: 1.4vh;
     background-color: transparent;
     display: block; 
-    padding: .3rem .7rem;
+    padding: .3rem .4rem;
     color: white;
     border-radius: 10px;
 }

@@ -1,0 +1,72 @@
+.discografia{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(10, 10, 10);
+}
+.img-discografia{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.discografia-container{
+    margin: 0 auto;
+    width: 90%;    
+    min-height: inherit;  
+    background-image: url("../../assets/ult.jpg");
+    background-repeat: no-repeat;
+}
+
+.discografia-principal{
+    margin: 0 auto;
+    width: 85%;
+    min-height: inherit;   
+    background-color: rgba(12, 12, 12, 0.726);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.album-content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.album-content img{
+    border-radius: 20px;
+}
+
+.album-content h3{
+    color: white;
+    text-align: center;
+}
+
+.album-content h3 span{
+ font-weight: 200;
+ font-style: italic;
+}
+
+.calificacion{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.album-content{
+    max-width: 300px;
+    flex: 0 1 100%;
+}
+
+@media only screen and (min-width: 720px) {
+ 
+   
+}
