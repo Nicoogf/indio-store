@@ -2,6 +2,7 @@
     width: 100%;
     background-color: rgb(10, 10, 10);
     padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 .img-discografia{
     width: 70%;
@@ -69,6 +70,7 @@
     flex-flow:row wrap ;
     justify-content: flex-start;
     gap: 2rem 0;
+    padding-bottom: 2rem;
 }
 
 .album-content{

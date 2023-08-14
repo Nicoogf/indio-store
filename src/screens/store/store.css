@@ -128,7 +128,7 @@ html{
 
 .desc-product{
     width: 100%;
-    font-size: .6vh;    
+    font-size: .8vh;    
     text-align: center; 
     color: var(--font-main-active); 
 }
@@ -155,13 +155,11 @@ html{
     padding: .3rem .4rem;
     color: white;
     border-radius: 10px;
+    text-align: center;
 }
 
-.buy-options a:hover{
-    font-size: 1.7vh;
-    background-color: goldenrod;
-    display: block; 
-    padding: .3rem .7rem;
+.buy-options a:hover{  
+    background-color: goldenrod; 
     color: rgba(85, 65, 0, 0.973);;
     border-radius: 10px;
 }
