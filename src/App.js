@@ -13,8 +13,8 @@ function App() {
       <Main />
       <Home />
       <Store />
-      <Shows />
       <Discografia />
+      <Shows />      
       <EndView />
     
       

@@ -1,7 +1,7 @@
 .discografia{
     width: 100%;
-    min-height: 100vh;
     background-color: rgb(10, 10, 10);
+    padding-bottom: 2rem;
 }
 .img-discografia{
     width: 70%;
@@ -11,20 +11,23 @@
 .discografia-container{
     margin: 0 auto;
     width: 90%;    
-    min-height: inherit;  
     background-image: url("../../assets/ult.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .discografia-principal{
     margin: 0 auto;
-    width: 85%;
-    min-height: inherit;   
-    background-color: rgba(12, 12, 12, 0.726);
+    width: 85%;     
+    background-color: rgba(14, 14, 14, 0.884);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;   
 }
 
 .img-content{
@@ -61,12 +64,44 @@
     margin-top: .5rem;
 }
 
+.disc-container{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: flex-start;
+    gap: 2rem 0;
+}
+
 .album-content{
-    max-width: 300px;
-    flex: 0 1 100%;
+    flex: 0 1 70%;
 }
 
 @media only screen and (min-width: 720px) {
- 
+
+    .album-content{
+        flex: 0 1 40%;
+    }
    
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .album-content{
+        flex: 0 1 30%;
+        padding: 1rem;
+    }
+   
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .album-content{
+        flex: 0 1 14%;
+    }
+
+    .disc-container{
+        padding: .5rem;
+        gap: .5rem 3.5rem;
+       
+    }
 }

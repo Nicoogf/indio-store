@@ -45,7 +45,7 @@ function Home() {
 
               <li className='nav-li'>  <ShoppingBagOutlinedIcon className='icon'/> <a href="#store" className='options-nav-a'> Productos</a> </li>
 
-              <li className='nav-li'>  <AlbumOutlinedIcon className='icon'/> <a href="#" className='options-nav-a'>Discografia</a> </li>
+              <li className='nav-li'>  <AlbumOutlinedIcon className='icon'/> <a href="#discografia" className='options-nav-a'>Discografia</a> </li>
 
               <li className='nav-li'>  <SpatialAudioOutlinedIcon className='icon'/> <a href="#shows" className='options-nav-a'>Recitales</a> </li>
 
