@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,800&family=Mukta:wght@200;300;400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+:root{
+    --bg-black-primary: #020202 ;
+    --bg-black-primary-alpha: #1313138c ;
+    --bg-black-secondary: #212121 ;
+
+    --font-main-active: #ffffff ;
+    --font-main-off: #9f9f9f ;
+
+    --yellow-main-active: #fec844;
+    --yellow-main-off : #a87a0a; 
+    --yellow-secondary : #da7326 ;
+
+    --animation-default : all .2s ease-out;    
+}
+
+
+.form-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-black-primary);
+    padding: 2rem;
+}
+
+
+.fondo-formulario{
+    width: 90vw;
+    height: 95%;
+    background-image: url("../../assets/fondo_app.jpg");
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:2rem;
+
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: var(--bg-black-primary-alpha);
+}
+
+.formulario h3{
+    background: rgb(176,78,25);
+    background: linear-gradient(0deg, rgba(176,78,25,1) 0%, rgba(255,192,0,1) 100%);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.formulario input{
+    padding: .8em;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.185);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.formulario input:focus{
+    padding: .8em;
+    width: 90%;
+    background-color: rgba(247, 202, 0, 0.418);
+    border-radius: 10px;
+    border: none
+}
+
+.formulario input::placeholder{
+   color: rgba(253, 183, 52, 0.726);
+   font-style: italic;
+}
+
+
+
+.formulario button{
+    display: block;    
+    background: rgb(176,78,25);
+    background: linear-gradient(0deg, rgba(176,78,25,1) 0%, rgba(255,192,0,1) 100%);
+    margin-top: 3vh;
+    width: 60%;
+    padding: 1.2vh;
+    color: white;
+    font-weight: 200;
+    border-radius: 10px;
+    text-align: center; 
+    cursor: pointer;
+    border:none;
+}
+
+
+
+.formulario button:hover{
+    box-shadow: 2px 2px 31px rgba(250,202,8,1);
+    transform: scale(1.2);
+}

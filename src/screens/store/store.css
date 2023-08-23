@@ -78,12 +78,12 @@ html{
     display: grid;
     
     gap: 2rem;
-    grid-auto-rows: 22rem;
+    grid-auto-rows: 23rem;
     grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));   
 }
 
 .product{
-    width: 80%;
+    width: 70%;
     max-width: 300px;
     height: 350px;  
     margin: 0 auto;  
