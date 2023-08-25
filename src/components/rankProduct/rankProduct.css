@@ -1,29 +1,27 @@
-.rank-product-container{
+.rank-product-container{  
     width: 100%;
-    max-width: 1000px;
     height: 36vh;
-
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: start;
+    overflow-x: auto;
+    justify-content: center;
     align-items: center;
-
-  
     overflow: hidden;    
-    
     margin: 0;
     padding: 0;
     gap: 1rem;
 }
 
 .item-product{
-    width:80%;
+    width:60%;
+    max-width: 300px;
     height: 200px;  
     background-color: rgba(63, 63, 63, 0.781);
     border-radius: 20px;
     position: relative;
     flex-direction: column;
+    flex: 1 0 100px;
     align-items: center;
     display: flex;
     justify-content: end;

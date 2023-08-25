@@ -1,3 +1,20 @@
+:root{
+    --bg-black-primary: #131313 ;
+    --bg-black-primary-alpha: #1313138c ;
+    --bg-black-secondary: #212121 ;
+
+    --font-main-active: #ffffff ;
+    --font-main-off: #9f9f9f ;
+
+    --yellow-main-active: #FEC03F;
+    --yellow-main-off : #a87a0a; 
+    --yellow-secondary : #F77A17 ;
+     
+    --yellow-text :#A25F00 ;
+
+    --animation-default : all .2s ease-out;    
+}
+
 *{
     margin:0;
     padding: 0;
@@ -18,17 +35,17 @@
     -webkit-box-reflect: below 1px
     linear-gradient(transparent,transparent,#0004);
     color: white;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .btn-start:hover{
-    background: #da7326;
-    box-shadow: 0 0 10px #da7326,
-    0 0 30px #da7326,
-    0 0 60px #da7326,
-    0 0 100px #da7326;
-    color: white;
-    border-radius: 15px;
+    background: var(--yellow-main-active);
+    box-shadow: 0 0 10px var(--yellow-main-active),
+    0 0 30px var(--yellow-main-active),
+    0 0 60px var(--yellow-main-active),
+    0 0 100px var(--yellow-main-active);
+    color: var(--yellow-text);
+    border-radius: 25px;
 }
 
 .btn-start::before{
@@ -36,17 +53,17 @@
     position: absolute;
     width: 40px;
     height: 400%;
-    background: #da7326;
+    background: var(--yellow-main-active);
     transition: 1s;
     animation: animate 2s linear infinite;
     animation-delay: calc(-0.33s * 0);
     color: white;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .btn-start:hover::before{
     width: 120%;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .btn-start::after{
@@ -60,8 +77,8 @@
 }
 
 .btn-start:hover::after{
-    background-color: #da7326;
-    color: white;
+    background-color: var(--yellow-main-active);
+    color: var(--yellow-text);
     border-radius: 15px;
 }
 
@@ -80,7 +97,6 @@
     position: relative;
     z-index: 1;
     font-size: 2vh;
-    color:white;
     opacity:0.5;
     letter-spacing: 1px;
     color: white;
@@ -90,4 +106,5 @@
 .btn-start:hover span{
     opacity: 1;
     border-radius: 15px;
+    color: var(--yellow-text);
 }

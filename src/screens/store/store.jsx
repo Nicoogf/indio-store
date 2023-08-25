@@ -88,7 +88,7 @@ function Store() {
             <h3>Libro</h3>
 
             <div className='article-text-info'>
-                <p className='name-product'>RECUERDOS QUE MIENTEN UN POCO</p>
+                <p className='name-product'>RECUERDOS QUE MIENTEN</p>
               
             </div>
 
