@@ -42,17 +42,15 @@
 
 .formulario{
     max-width: 500px;
+    max-height: 500px ;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     gap:2rem;
-
-    width: 90%;
-    height: 50vh;
-    margin: 0 auto;
+    width: 90%;  
     border-radius: 15px;
     background-color: var(--bg-black-primary-alpha);
+    padding-bottom: 1.5rem;
 }
 
 .formulario h3{
@@ -109,5 +107,92 @@
 
 .formulario button:hover{
     box-shadow: 2px 2px 31px rgba(250,202,8,1);
-    transform: scale(1.2);
+    transform: scale(1.05);
+}
+
+
+.terminos p{
+    color:white ; 
+    font-weight: 100;
+    font-size: .8rem;
+    width: 400px;
+    margin: 0;
+}
+
+.terminos{
+    display: flex;
+    flex-direction: row; 
+    flex: 0 0 auto;
+    width: 90%;
+}
+
+.terminos input{
+    width: 50px;
+    margin: 0;
+}
+
+.terminos input:focus{
+    width: 50px;
+    margin: 0;
+}
+
+.flyer{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .fondo-formulario{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .flyer{
+        width: 250px;
+        height: 500px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        color: white;
+        background-image: url(../../assets/ooo.jpg);
+        border-radius: 20px 0 0 20px;
+        justify-content: center;
+        background-position: center; 
+        position: relative;
+    }
+   
+
+    .flyer h5{
+       width: 100%;
+       position: absolute;
+       top: 40%;
+       text-align: center;
+       background-color: rgba(0, 0, 0, 0.829); 
+       padding: 2rem 0;   
+       font-weight: 400;
+    }
+
+    .flyer h5 span {
+      color: var(--yellow-main-active);
+      font-weight: 400;
+      font-size: 2rem;
+     }
+
+    .formulario h3{
+        background: rgb(176,78,25);
+        background: linear-gradient(0deg, rgba(176,78,25,1) 0%, rgba(255,192,0,1) 100%);
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        color: white;
+        border-radius: 0 15px 0 0;
+    }
+    
+   
 }

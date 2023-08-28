@@ -85,7 +85,7 @@ function Shows() {
 
               <h3 className='info-title'>Olavarria</h3>
 
-              <p className='texto-show'>El cantante comenzó a hacer vibrar a Olavarría con "Barba azul vs el amor letal". Luego continuó con "Porco Rex", "Arca Monster" y "Chau Mohicano", .El show debió ser pausado por la continuidad de incidentes.Fue su ultima funcion</p>
+              <p className='texto-show'>El cantante comenzó a hacer vibrar a Olavarría con "Barba azul vs el amor letal". Luego continuó con "Porco Rex" y "Arca Monster" .El show debió ser pausado por la continuidad de incidentes.Fue su ultima funcion</p>
 
               </div>
 
