@@ -43,10 +43,15 @@ hr{
     box-sizing: inherit;
 }
 
+.contenedor-pricipal-inicio{
+    width: 100%;
+    max-width: 100%;
+}
+
 .app-main{
     background-color: rgb(7, 7, 7);
-    position: relative;
-    padding: 1rem;
+    position: relative;    
+    width: 100%;
 }
 
 .app-container{
@@ -66,16 +71,15 @@ hr{
     bottom: 0;   
     z-index: 100;
     display: none;
-    opacity: 1;
-    border-radius: 20px;
+    opacity: 1;    
     transition: .3s ease-in-out;  
-   
 }
 
 .visible{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;     
     animation: aparecer .2s ease-in-out forwards;
 }
 
@@ -94,26 +98,24 @@ hr{
 }
 
 .nav-menu{ 
-    width: 90%;    
+    width: 100%;    
     margin:0 auto;
     background-color: var(--bg-black-secondary);
     box-shadow: rgb(7, 7, 7) 0px 5px 15px;
     border-radius: 20px;     
     display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    justify-content: space-around;
-    padding-bottom: 1rem;
+    flex-direction: column;    
+    justify-content: space-around;    
 }
 
 .nav-title-main{
     width: 100%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--font-main-active);    
-    background-color: var(--bg-black-secondary);   
-    padding: 1rem 0; 
-    border-radius: 3rem 3rem 0 0;
+    background-color: var(--bg-black-primary);
+    padding: 5rem 0;   
+    font-weight: 400;    
 }
 
 
@@ -128,7 +130,8 @@ hr{
     color: var(--font-main-off);
     font-size: 1.3rem;      
     display: block;
-    padding: 1.8rem 0;     
+    padding: 1.7rem 0;     
+    font-weight: 100;
 }
 
 
@@ -140,10 +143,10 @@ hr{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding: 1rem 0;
     transition: .3s ease-in-out;
-    cursor: pointer;
-    border-bottom: 1px solid rgb(54, 54, 54);
-    background-color: var(--bg-black-secondary);
+    cursor: pointer;   
+    background-color: var(--bg-black-primary);
 }
 
 
@@ -165,12 +168,12 @@ hr{
 
 .icon{
     color: var(--font-main-off);
-    transform: scale(1.4);
+    transform: scale(1.5);
 }
 
 .icon-exit{
-    color: #131313;
-    transform: scale(2);
+    color: white;
+    transform: scale(1.7);   
 }
 
 .icon-exit:hover{
@@ -178,11 +181,11 @@ hr{
 }
 
 .btn-salir{
-    background-color: var(--yellow-main-off);
-    color: #131313;
-    padding: 1rem;
+    background-color: var(--bg-black-primary);  
+    color: white;
+    padding: .6rem .6rem;
     border:none;
-    border-radius: 1.8rem;
+    border-radius: .7rem;
     transition: var(--animation-default);
 }
 
@@ -196,10 +199,13 @@ hr{
 }
 
 .btn-exit{
+    position: absolute;
+    top:10px;
+    right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 2rem;   
 }
 
 
@@ -331,7 +337,6 @@ hr{
 
     .product_card img{
         width: 50%;
-        
         position: relative;
         bottom: -.7rem;
     }
@@ -386,7 +391,7 @@ hr{
 
     .app-nav{
         width: 45%;  
-        max-width: 380px;     
+        max-width: 380px;                
     } 
 
     .img_face{
@@ -401,6 +406,40 @@ hr{
         display: block;
         max-width: 150px;
         border-radius: 10px;
+    }
+
+    .options-nav-a{
+        color: var(--font-main-off);
+        font-size: 1.6rem;      
+        display: block;
+        padding: 3rem 0;     
+    }
+
+    .nav-title-main{
+        width: 100%;
+        text-align: center;        
+        color: var(--font-main-active);    
+        background-color: var(--bg-black-primary);  
+        padding: 4rem 0;   
+        font-weight: 400;    
+    }
+
+    .visible{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;     
+        animation: aparecer .2s ease-in-out forwards;
+    }
+
+    .btn-exit{
+        position: absolute;
+        top:10px;
+        right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;   
     }
     
   }

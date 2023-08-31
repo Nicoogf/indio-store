@@ -29,10 +29,9 @@ function Home() {
 
 
   return (
-    <div>
+    <div className='contenedor-pricipal-inicio'>
 
       <div className='app-main' id="main">
-
 
         <nav className='app-nav' id="menu">
 
@@ -82,10 +81,9 @@ function Home() {
           </div>
 
         
-
-            <div className='btn-exit'>
-              <button onClick={cerrarMenu} className='btn-salir'>  <CloseOutlinedIcon className='icon icon-exit'/> </button>
-            </div>
+          <div className='btn-exit'>
+            <button onClick={cerrarMenu} className='btn-salir'>  <CloseOutlinedIcon className='icon icon-exit'/> </button>
+          </div>
 
          
 
@@ -95,8 +93,6 @@ function Home() {
         <section className='app-container'>
 
 
-
-
           <Options />
 
           <MainScreen />
@@ -104,19 +100,6 @@ function Home() {
           <RankProduct />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-          
 
         </section>
 
