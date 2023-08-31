@@ -61,7 +61,7 @@ function Home() {
 
           <div className='nav-bottom'>
             <div className='nav-bottom-uno'>
-            <h3>We are</h3>
+            <h3>we are</h3>
             <h5>In socials networks</h5>
             <div className='icons-container'>
               <FacebookRoundedIcon className='icon-face'/>

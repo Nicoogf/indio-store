@@ -17,7 +17,7 @@ function Shows() {
 
         <img src={recitales} alt="" className='show-img'/>
 
-       <div className='shows'> 
+       <div className='shows-list'> 
 
         <div className='list-show'>
 
@@ -30,7 +30,7 @@ function Shows() {
 
               <h3 className='info-title'>Mendoza</h3>
 
-              <p className='texto-show'>Arrancó su show y en un intervalo del espectáculo expresó: “Son unos talibanes, como se gastaron tanta plata para venir al recital y no guardaron para las fiestas” y luego  afirmó que 150 mil personas habían asistido al recital.</p>
+              <p className='texto-show'>Arrancó su show y  expresó: “Son unos talibanes, como se gastaron tanta plata para venir al recital y no guardaron para las fiestas” y luego  afirmó que 150 mil personas habían asistido al recital.</p>
               </div>
 
               <div className='add-info-show'>

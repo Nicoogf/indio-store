@@ -66,7 +66,7 @@ function Store() {
                 </div>
 
                 <div className='buy-options'>
-                    <h6>$5000</h6>
+                    <h6>$9500</h6>
                     <a href="">Agregar al carrito</a>
                 </div>
 

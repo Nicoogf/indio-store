@@ -10,7 +10,6 @@ const Main = () => {
 
     <main className='main-container'>
 
-
       <div className='sections-containers'>
 
       <section className='section-logo'>
@@ -26,7 +25,7 @@ const Main = () => {
 
        
           
-       <StartButton />
+       <StartButton  className="botton-ingresar"/>
 
 
 

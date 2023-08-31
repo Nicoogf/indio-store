@@ -70,6 +70,7 @@ img{
 .section-logo{
     width: 50%;    
     margin-bottom: 2rem;
+    margin-top: 4rem;
     filter: grayscale(1);
     transition: all .5s ease-in-out;      
 }
@@ -86,6 +87,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .section-titles img{
@@ -146,6 +148,8 @@ img{
     .main-link{        
         padding: 1rem 1.5rem;      
     }
+
+    
     
   }
 

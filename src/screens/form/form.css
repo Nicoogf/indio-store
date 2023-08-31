@@ -40,7 +40,9 @@
     align-items: center;
 }
 
-.formulario{
+.formulario{ 
+    width: 500px;
+    height: 500px ;
     max-width: 500px;
     max-height: 500px ;
     display: flex;
@@ -48,7 +50,7 @@
     align-items: center;
     gap:2rem;
     width: 90%;  
-    border-radius: 15px;
+    border-radius: 15px 0  15px 0;
     background-color: var(--bg-black-primary-alpha);
     padding-bottom: 1.5rem;
 }
@@ -141,6 +143,7 @@
 }
 
 
+
 @media only screen and (min-width: 1024px) {
 
     .fondo-formulario{
@@ -193,6 +196,7 @@
         color: white;
         border-radius: 0 15px 0 0;
     }
+   
     
    
 }

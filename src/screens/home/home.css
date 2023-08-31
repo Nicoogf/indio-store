@@ -109,11 +109,11 @@ hr{
 .nav-title-main{
     width: 100%;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--font-main-active);    
     background-color: var(--bg-black-secondary);   
     padding: 1rem 0; 
-    border-radius: 5rem 5rem 0 0;
+    border-radius: 3rem 3rem 0 0;
 }
 
 
@@ -428,24 +428,23 @@ hr{
     .nav-title-main{    
         text-align: center;   
         color: var(--font-main-active);    
-        background-color: rgb(22, 22, 22);       
-        border-radius: 2rem 2rem 0 0 ;    
+        background-color: rgb(22, 22, 22); 
+        border-radius: .5rem .5rem  0 0;
+        padding: .7rem;     
+          
     }
 
     .nav-menu{ 
-        width: 90%;   
-        margin: 2rem 0;   
+        width: 90%;           
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
-        border-radius: 2rem;
-        padding-bottom: 2rem;         
+        padding: 0 0 1rem 0;
+        border-radius: .5rem;        
     }
 
 
     .nav-li{
-        width: 95%;
-        margin: 0 auto;
-        border-radius: 10px;
-        padding: 0 1rem;
+        width: 100%;
+        margin: 0 auto;       
     }
 
     
@@ -455,8 +454,7 @@ hr{
 
     .nav-li:hover{
         background-color:var(--bg-black-primary);    
-        border-radius: 0px;
-        border-radius: 10px;
+        border-radius: 0px;        
     }    
 
     .ul-nav{
@@ -467,16 +465,16 @@ hr{
 
     .nav-logo{
         display: block;
-        width: 30%; 
-        margin-top: 2rem;
-        margin-bottom: 2rem;             
+        width: 22%; 
+        margin-top: 1rem;
+        margin-bottom: 1rem;             
     }
 
     .options-nav-a{
         color: var(--font-main-off);
         font-size: 1.3rem;      
         display: block;
-        padding: 1.5rem 0;     
+        padding: 1rem 0;     
     }
 
     .btn-exit{
@@ -488,43 +486,47 @@ hr{
         text-align: center;
         color: white;
         font-weight: 400;
+        font-size: 1rem;
+        padding: 0;
     }
 
     .nav-bottom h5{
         font-weight: 200;
         color: #9f9f9f;
+        font-size: 1rem;
     }
    
     .nav-bottom{
         width: 90%;
         margin: 0 auto;
         position: absolute;
-        bottom: 40px;        
+        bottom: 20px;        
         left: 0;
         right: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: .8rem;       
+        gap: .6rem;       
 
     }
     
     .nav-bottom-uno{
-        background-color: #272727;
-        width: 90%;
+        background-color: rgb(19, 19, 19);
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: .5rem;
-        padding: .5rem 0;
+        padding: 1rem 0;
         border-radius: 20px;
+        border: 3px solid var(--bg-black-secondary);
     }
 
     .nav-bottom-dos{
         background-color: rgb(0, 0, 0);
-        width: 90%;
-        padding: 1.2rem 0;
-        border-radius: 15px;
+        width: 95%;
+        padding: 1rem 0;
+        border-radius: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -535,29 +537,39 @@ hr{
 
   
 
-    .icon-face{
-        color: rgb(73, 73, 212);
-        background-color: white;
+    .icon-face{        
+        color :white ;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,207,1) 50%, rgba(255,255,255,1) 100%);     
         border-radius: 20px;
+        padding: .15rem;
+        transform: scale(.85);
     }
 
     .icon-telegram{
-        color: white;
-        background-color: rgb(0, 153, 255);
+        color :white ;
+        background: rgb(58,116,180);
+        background: linear-gradient(90deg, rgba(58,116,180,1) 0%, rgba(29,146,253,1) 50%, rgba(200,239,249,1) 100%);     
         border-radius: 20px;
+        padding: .25rem;
+        transform: rotate(-45deg) scale(.80);
+       
     }
 
     .icon-whatsapp{
-        color:white;
-        background-color: rgb(35, 138, 49);
+        color :white ;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,207,1) 50%, rgba(255,255,255,1) 100%);         
         border-radius: 20px;
+        padding: .15rem;
+        transform: scale(.85);
     }
 
     .punto-icon{
         color: rgb(36, 190, 36);
         transform: scale(0.5);
         position: absolute;
-        left: 25px;
+        left: 40px;
         top: 8px;
     }
 
@@ -569,13 +581,18 @@ hr{
         flex-direction: row;
     }
     
-    .phone-icon{
+    .phone-icon{        
+        border: 0.5px solid var(--bg-black-secondary);
+        border-radius: 50%;
+        padding: .1rem;
         color: gray;
         transform: scale(1.4);
     }
 
     .nav-bottom-dos h3{
         font-size: 1rem;
+        font-weight: 200;
+        text-align: start;
     }
   }
 
