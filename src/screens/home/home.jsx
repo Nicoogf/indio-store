@@ -15,6 +15,10 @@ import SendRoundedIcon from '@mui/icons-material/SendRounded';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import PhoneCallbackIcon from '@mui/icons-material/PhoneCallback';
 import CircleIcon from '@mui/icons-material/Circle';
+import PlayCircleIcon from '@mui/icons-material/PlayCircle';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import WebIcon from '@mui/icons-material/Web';
+import GradeIcon from '@mui/icons-material/Grade';
 
 import logoNav from "../../assets/logo-nav.png";
 
@@ -52,7 +56,15 @@ function Home() {
 
                   <li className='nav-li'>  <SpatialAudioOutlinedIcon className='icon'/> <a href="#shows" className='options-nav-a'>Recitales</a> </li>
 
-                  <li className='nav-li'>  <LanguageOutlinedIcon className='icon'/><a href="#redes" className='options-nav-a'>Redes</a> </li>
+                  <li className='nav-li'>  <LanguageOutlinedIcon className='icon'/><a href="#redes" className='options-nav-a'>Redes</a> </li>                 
+
+                  <li className='nav-li'>  <YouTubeIcon className='icon'/><a href="https://www.youtube.com/@indiosolarioficial" className='options-nav-a'>Youtube</a> </li>
+
+                  <li className='nav-li'>  <WebIcon className='icon'/><a href="https://tienda.indiosolarioficial.com/" className='options-nav-a'>Web</a> </li>
+
+                  <li className='nav-li'>  <GradeIcon className='icon'/><a href="https://indiosolarioficial.com/novedades.html" className='options-nav-a'>Novedades</a> </li>
+
+                  <li className='nav-li'>  <PlayCircleIcon className='icon'/><a href="https://open.spotify.com/intl-es/artist/0nUGkxUncFeXt0Dr0hhrc4" className='options-nav-a'>Spotify</a> </li>
 
               </ul>
 

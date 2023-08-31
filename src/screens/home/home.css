@@ -114,7 +114,7 @@ hr{
     font-size: 1.8rem;
     color: var(--font-main-active);    
     background-color: var(--bg-black-primary);
-    padding: 5rem 0;   
+    padding: 2rem 0;   
     font-weight: 400;    
 }
 
@@ -128,7 +128,7 @@ hr{
 
 .options-nav-a{
     color: var(--font-main-off);
-    font-size: 1.3rem;      
+    font-size: 1rem;      
     display: block;
     padding: 1.7rem 0;     
     font-weight: 100;
@@ -142,8 +142,7 @@ hr{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding: 1rem 0;
+    gap: 1.5rem;    
     transition: .3s ease-in-out;
     cursor: pointer;   
     background-color: var(--bg-black-primary);
