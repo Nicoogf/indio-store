@@ -24,6 +24,9 @@ function Store() {
 
         <div className='products'>
 
+
+
+
             <div className='product'>
 
                 <img src={remeraPorco} alt="" />
@@ -39,8 +42,7 @@ function Store() {
                 </div>
 
                 <div className='buy-options'>
-                    <h6>$7500</h6>
-                    <a href="">Agregar al carrito</a>
+                    <h6>$7500</h6>                    
                 </div>
 
                 </div>
@@ -50,6 +52,23 @@ function Store() {
                 
 
             </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <div className='product'>
 
@@ -66,8 +85,7 @@ function Store() {
                 </div>
 
                 <div className='buy-options'>
-                    <h6>$9500</h6>
-                    <a href="">Agregar al carrito</a>
+                    <h6>$9500</h6>                    
                 </div>
 
             </div>
@@ -94,7 +112,7 @@ function Store() {
 
             <div className='buy-options'>
                 <h6>$16000</h6>
-                <a href="">Agregar al carrito</a>
+               
             </div>
 
             </div>
@@ -121,7 +139,7 @@ function Store() {
 
             <div className='buy-options'>
                 <h6>$6900</h6>
-                <a href="">Agregar al carrito</a>
+               
             </div>
 
             </div>
@@ -148,7 +166,7 @@ function Store() {
 
             <div className='buy-options'>
                 <h6>$5000</h6>
-                <a href="">Agregar al carrito</a>
+                
             </div>
 
             </div>
@@ -175,7 +193,6 @@ function Store() {
 
             <div className='buy-options'>
                 <h6>$7500</h6>
-                <a href="">Agregar al carrito</a>
             </div>
 
             </div>

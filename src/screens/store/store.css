@@ -70,8 +70,7 @@ html{
 
 .products{
     width: 89%;
-    padding: 2rem;
-   
+    padding: 2rem;   
     background-image: url("../../assets/fondo-store.jpg");
     border-radius: 14px;
 
@@ -83,21 +82,21 @@ html{
 }
 
 .product{
-    width: 70%;
+    width: 95%;
     max-width: 300px;
-    height: 350px;  
     margin: 0 auto;  
     grid-column: span 2;
-    position: relative;
-    filter: grayscale(1);
+    position: relative;     
+    display: flex;
+    justify-content: flex-end;
 }
 
 .product img{
-    width: 50%;
+    width: 150px;
     max-width: 150px;
     max-height: 184px;
     position: relative;
-    top: 3rem;
+    top: 2.5rem;
 }
 
 .img-show{
@@ -105,9 +104,10 @@ html{
 }
 
 .article-text{
-    width: 90%;
-    background-color: #686868b4;
-    padding: 1rem;
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    background-color: #313131b4;   
     border-radius: 1.5rem;
     -webkit-box-shadow: 2px 2px 11px 5px rgba(0,0,0,0.91);
     -moz-box-shadow: 2px 2px 11px 5px rgba(0,0,0,0.91);
@@ -116,14 +116,15 @@ html{
 
 .article-text h3{    
     text-align: center;
-    font-size: 3vh;
-    margin-top: 1rem;
+    font-size: 4vh;
+    padding: 1.5rem 0;
+    font-weight: 400;    
     color: white;
 }
 
 .name-product{
-    color: white;
-    font-size: 1.5vh;
+    color: var(--font-main-off);
+    font-size: 2vh;
 }
 
 .desc-product{
@@ -136,15 +137,16 @@ html{
 .buy-options{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: .5rem;  
+    justify-content: center;
+    margin-top: 1.3rem;     
 }
 
 .buy-options h6{
     color: #fec844;
-    font-size: 1.6vh;
+    font-size: 1.5rem;    
     font-weight: 400;
     padding: .3rem .7rem;
+    padding-bottom: 1.5rem ;
 }
 
 .buy-options a{
@@ -170,4 +172,28 @@ html{
 }
 .product:hover .desc-product{
     color: var(--bg-black-secondary);
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .article-text h3{    
+        text-align: center;
+        font-size: 1.4rem;
+        padding: 1.5rem 0;
+        font-weight: 400;    
+        color: white;
+    }
+
+    .name-product{
+        color: var(--font-main-off);
+        font-size: 1.6vh;
+    }
+
+    .buy-options h6{
+        color: #fec844;
+        font-size: 1.2rem;    
+        font-weight: 400;
+        padding: .3rem .7rem;
+        padding-bottom: 1.5rem ;
+    }
 }

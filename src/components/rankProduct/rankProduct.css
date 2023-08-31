@@ -15,7 +15,7 @@
 
 .item-product{
     width:60%;
-    max-width: 300px;
+    max-width: 200px;
     height: 200px;  
     background-color: rgba(63, 63, 63, 0.781);
     border-radius: 20px;
@@ -30,10 +30,10 @@
 }
 
 .img-product{
-    width: 45%;
+    width: 55%;
     max-width: 75px;
     position: absolute;
-    top: -10px;   
+    top: 5px;   
     filter: drop-shadow(0px 10px 15px #8a6604);
 }
 
@@ -54,4 +54,32 @@
     font-weight: 200;
     font-size: 2vh;
     padding: .5vh;
+}
+
+.last-card{
+    display:none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .last-card{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .rank-product-container{  
+        width: 100%;
+        max-width: 800px;
+        height: 36vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;    
+        margin: 0;
+        padding: 0;
+        gap: 1rem;        
+    }
+
 }

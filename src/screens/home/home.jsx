@@ -58,13 +58,13 @@ function Home() {
 
                   <li className='nav-li'>  <LanguageOutlinedIcon className='icon'/><a href="#redes" className='options-nav-a'>Redes</a> </li>                 
 
-                  <li className='nav-li'>  <YouTubeIcon className='icon'/><a href="https://www.youtube.com/@indiosolarioficial" className='options-nav-a'>Youtube</a> </li>
+                  <li className='nav-li opc-secundarias'>  <YouTubeIcon className='icon'/><a href="https://www.youtube.com/@indiosolarioficial" className='options-nav-a '>Youtube</a> </li>
 
-                  <li className='nav-li'>  <WebIcon className='icon'/><a href="https://tienda.indiosolarioficial.com/" className='options-nav-a'>Web</a> </li>
+                  <li className='nav-li opc-secundarias'>  <WebIcon className='icon'/><a href="https://tienda.indiosolarioficial.com/" className='options-nav-a '>Web</a> </li>
 
-                  <li className='nav-li'>  <GradeIcon className='icon'/><a href="https://indiosolarioficial.com/novedades.html" className='options-nav-a'>Novedades</a> </li>
+                  <li className='nav-li opc-secundarias'>  <GradeIcon className='icon'/><a href="https://indiosolarioficial.com/novedades.html" className='options-nav-a'>Novedades</a> </li>
 
-                  <li className='nav-li'>  <PlayCircleIcon className='icon'/><a href="https://open.spotify.com/intl-es/artist/0nUGkxUncFeXt0Dr0hhrc4" className='options-nav-a'>Spotify</a> </li>
+                  <li className='nav-li opc-secundarias'>  <PlayCircleIcon className='icon'/><a href="https://open.spotify.com/intl-es/artist/0nUGkxUncFeXt0Dr0hhrc4" className='options-nav-a'>Spotify</a> </li>
 
               </ul>
 

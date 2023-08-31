@@ -44,6 +44,7 @@ html{
 }
 
 .nav-container{
+    margin: 0 auto;
     background-color:  var(--bg-black-primary);
     width: 95%;
     display: flex;
@@ -184,6 +185,9 @@ html{
         border-radius: 10px;
     }
 
+    .opc-secundarias{
+        display: none;
+    }
 
 
 

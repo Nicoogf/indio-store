@@ -64,6 +64,7 @@ hr{
 /* Nav */
 
 .app-nav{
+    width: 70%;
     background-color: var(--bg-black-primary);
     position: absolute;
     top: 0;
@@ -140,7 +141,7 @@ hr{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 1.5rem;    
     transition: .3s ease-in-out;
@@ -151,23 +152,26 @@ hr{
 
 
 .nav-li:hover{
-    background-color:var(--bg-black-secondary);    
-    box-shadow: 1px -1px 95px 3px #0e0e0edc inset;
+    background-color: rgb(15, 15, 15);      
     color:var(--yellow-main-active);
 }    
 
 .nav-li:hover a{  
     color:var(--yellow-main-active);
     border-radius:20px;    
+    background-color: rgb(15, 15, 15);
 }    
 
 .nav-li:hover .icon{  
-    color:var(--font-main-active);     
+    color:var(--font-main-active);
+    background-color: rgb(15, 15, 15);     
 }    
 
 .icon{
     color: var(--font-main-off);
+    background-color: rgb(15, 15, 15);
     transform: scale(1.5);
+    margin-left: 2rem;
 }
 
 .icon-exit{
@@ -181,17 +185,12 @@ hr{
 
 .btn-salir{
     background-color: var(--bg-black-primary);  
-    color: white;
-    padding: .6rem .6rem;
+    color: white;   
     border:none;
     border-radius: .7rem;
     transition: var(--animation-default);
 }
 
-.btn-salir:hover{
-    background-color: rgb(255, 166, 0);
-    color: white;
-}
 
 .btn-exit:hover .icon-exit{
     color: white;
@@ -199,7 +198,7 @@ hr{
 
 .btn-exit{
     position: absolute;
-    top:10px;
+    top: 5px;
     right: 10px;
     display: flex;
     justify-content: center;
@@ -411,7 +410,7 @@ hr{
         color: var(--font-main-off);
         font-size: 1.6rem;      
         display: block;
-        padding: 3rem 0;     
+        padding: 1.5rem 0;     
     }
 
     .nav-title-main{
@@ -453,36 +452,41 @@ hr{
 
     .app-nav{
         opacity: 1;
-        max-width: 260px;
+        max-width: 230px;
         position: relative;
         display: flex; 
         flex-direction: column;
         justify-content: flex-start; 
         align-items: center;
-        background-color: rgb(19, 19, 19);  
+        background-color: rgb(15, 15, 15);  
     }  
 
 
-    .nav-title-main{    
-        text-align: center;   
-        color: var(--font-main-active);    
+    .nav-title-main{ 
+        width: 80%;   
+        text-align: center;        
+        color: var(--font-main-off);    
         background-color: rgb(22, 22, 22); 
         border-radius: .5rem .5rem  0 0;
-        padding: .7rem;     
-          
+        padding: .7rem;
+        background-color: rgb(15, 15, 15);
+        font-weight: 400;     
     }
 
     .nav-menu{ 
         width: 90%;           
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
-        padding: 0 0 1rem 0;
+        background-color: rgb(15, 15, 15);  
         border-radius: .5rem;        
     }
 
 
     .nav-li{
         width: 100%;
-        margin: 0 auto;       
+        margin: 0 auto;   
+        background-color: rgb(15, 15, 15);
+        padding: .15rem 0; 
+        border-bottom: rgb(32, 32, 32) 1px solid;  
     }
 
     
@@ -491,7 +495,7 @@ hr{
     }
 
     .nav-li:hover{
-        background-color:var(--bg-black-primary);    
+        background-color: rgb(15, 15, 15); 
         border-radius: 0px;        
     }    
 
@@ -510,6 +514,7 @@ hr{
 
     .options-nav-a{
         color: var(--font-main-off);
+        background-color: rgb(15, 15, 15); 
         font-size: 1.3rem;      
         display: block;
         padding: 1rem 0;     
@@ -573,6 +578,13 @@ hr{
         position: relative;
     }
 
+    .icon{
+        color: var(--font-main-off);
+        background-color: rgb(15, 15, 15);  ;
+        transform: scale(1.5);
+        margin-left: 2rem;
+    }
+
   
 
     .icon-face{        
@@ -607,7 +619,7 @@ hr{
         color: rgb(36, 190, 36);
         transform: scale(0.5);
         position: absolute;
-        left: 40px;
+        left: 30px;
         top: 8px;
     }
 
