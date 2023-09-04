@@ -6,11 +6,6 @@ import producto11 from "../../assets/producto_11.jpg";
 import producto3 from '../../assets/producto_3.png' ;
 import producto4 from '../../assets/producto_4.png' ;
 
-import disco1 from "../../assets/disco1.jpg";
-import disco2 from "../../assets/disco2.jpg";
-import disco3 from "../../assets/disco3.jpg";
-import disco4 from "../../assets/disco4.jpg";
-import disco5 from "../../assets/disco5.jpg";
 
 function rankProduct() {
   return (
@@ -56,12 +51,8 @@ function rankProduct() {
             </div>
 
     </section>
-
-
-      
-
    
-  )
-}
+  );
+};
 
 export default rankProduct
