@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/indio-store/static/css/main.6b7f0aa9.css",
-    "main.js": "/indio-store/static/js/main.7595db3b.js",
+    "main.js": "/indio-store/static/js/main.d6fbeb6c.js",
     "static/media/porco.png": "/indio-store/static/media/porco.5dabe017269a83461dbf.png",
     "static/media/fondo-store.jpg": "/indio-store/static/media/fondo-store.62c8cf3bb780bbca542e.jpg",
     "static/media/logo-transparente.png": "/indio-store/static/media/logo-transparente.81a9e5e3e7f0182e316e.png",
@@ -44,10 +44,10 @@
     "static/media/react.png": "/indio-store/static/media/react.94241cff4fede98a4356.png",
     "index.html": "/indio-store/index.html",
     "main.6b7f0aa9.css.map": "/indio-store/static/css/main.6b7f0aa9.css.map",
-    "main.7595db3b.js.map": "/indio-store/static/js/main.7595db3b.js.map"
+    "main.d6fbeb6c.js.map": "/indio-store/static/js/main.d6fbeb6c.js.map"
   },
   "entrypoints": [
     "static/css/main.6b7f0aa9.css",
-    "static/js/main.7595db3b.js"
+    "static/js/main.d6fbeb6c.js"
   ]
 }
